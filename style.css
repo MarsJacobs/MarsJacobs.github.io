@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  width: 728px;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

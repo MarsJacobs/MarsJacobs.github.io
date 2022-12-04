@@ -1,1 +1,204 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>MINSOO KIM</h2>
+      <p>222, Wangsimni-ro, Seongdong-gu, Seoul, Republic of Korea, 04763</p>
+      <div class="vertical">
+        <a href="tel:+82 10-8203-6871">Phone: +82-10-8203-6871</a>
+        <a href="mailto:minsoo2333@hanyang.ac.kr"
+          >Email: minsoo2333@hanyang.ac.kr</a
+        >
+        <a href="https://github.com/MarsJacobs"
+          >Github: https://github.com/MarsJacobs</a
+        >
+      </div>
+      <section>
+        <h3 class="section__title">RESEARCH INTERESTS</h3>
+        <hr />
+        <ul>
+          <li>Efficient Deep Learning inference algorithm</li>
+          <li>Model quantization</li>
+          <li>Knowledge Distillation</li>
+          <li>Large Language Model</li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="section__title">EDUCATION</h3>
+        <hr />
+        <div class="section__description__title horizontal justify-between">
+          <p>
+            <strong
+              >Ph.D Candidate in Department of Electronic Engineering</strong
+            >
+          </p>
+          <p>Mar. 2021 - Present</p>
+        </div>
+        <div class="section__description__content">
+          <p>Hanyang University, Seoul, South Korea</p>
+        </div>
+        <br />
+        <div class="section__description__title horizontal justify-between">
+          <p>
+            <strong>B.S in Department of Electronic Engineering</strong>
+          </p>
+          <p>Feb. 2021</p>
+        </div>
+        <div class="section__description__content">
+          <p>Hanyang University, Seoul, South Korea</p>
+          <p>
+            Thesis: Improving training method for very low bit weight
+            quantization of Light Deep Learning Model
+          </p>
+          <p>Advisor: Professor Jungwook Choi</p>
+        </div>
+      </section>
+      <section>
+        <h3 class="section__title">RESEARCH EXPERIENCE</h3>
+        <hr />
+        <div class="section__description__title horizontal justify-between">
+          <p>
+            <strong>Research Assistant, Hanyang University</strong>
+          </p>
+          <p>Mar 2021 - Present</p>
+        </div>
+        <div class="section__description__content horizontal justify-between">
+          <p>Advisor: Professor Jungwook Choi</p>
+          <p>Seoul, South Korea</p>
+        </div>
+        <ul>
+          <li>
+            <strong>
+              Large Transformer encoder model QAT with Knowledge
+              Distillation</strong
+            >
+          </li>
+          <ul>
+            <li>
+              In-depth analysis of the mechanism of KD on attention recovery of
+              quantized large Transformer encoders.
+            </li>
+            <li>
+              Analyze quantization effect on attention behavior of transformer
+              over various language understanding tasks.
+            </li>
+            <li>
+              Propose new KD method and unification of multiple KD loss function
+              to address task-dependent preference.
+            </li>
+            <li>
+              Achieve state-of-the-art language understanding accuracy for QAT
+              with sub-2bit weight quantization for large Transformer encoder
+              models.
+            </li>
+          </ul>
+          <br />
+          <li>
+            Improving Transformer encoder QAT convergence of few-sample
+            fine-tuning
+          </li>
+          <ul>
+            <li>
+              Propose a proactive Teacher Intervention KD method for fast
+              converging QAT of low precision pre-trained Transformers.
+            </li>
+            <li>
+              Gradual intervention mechanism to stabilize the recovery of
+              subsections of Transformer layers from quanti- zation.
+            </li>
+            <li>
+              Achieves higher accuracy of language understanding task within
+              12.5x shorter fine-tuning time.
+            </li>
+          </ul>
+        </ul>
+        <br />
+        <div class="section__description__title horizontal justify-between">
+          <p>
+            <strong>Undergraduate Research Intern, Hanyang University</strong>
+          </p>
+          <p>Jul 2020 - Feb 2021</p>
+        </div>
+        <div class="section__description__content horizontal justify-between">
+          <p>Advisor: Professor Jungwook Choi</p>
+          <p>Seoul, South Korea</p>
+        </div>
+        <ul>
+          <li>
+            <strong>
+              Fine-Tuning scheduling method for 2-bit weight quantization of
+              light deep learning models</strong
+            >
+          </li>
+          <ul>
+            <li>
+              Propose a better training scheduling method for boosting quantized
+              model accuracy.
+            </li>
+            <li>
+              Improve 2-bit weight quantization accuracy of light deep learning
+              models including EfficientNetB0 and MobileNetV2.
+            </li>
+          </ul>
+          <li>”Double-Blind” EACL 2023 (Submitted)</li>
+          <li>
+            Minsoo Kim, Sihwa Lee, Sukjin Hong, Du-Seong Chang, Jungwook Choi,
+            ”Understanding and Improving Knowledge Distillation for
+            Quantization-Aware Training of Large Transformer Encoders,” EMNLP
+            2022 <a href="https://arxiv.org/abs/2211.11014">Paper</a> ,
+            <a href="https://github.com/MarsJacobs/kd-qat-large-enc">Code</a>
+          </li>
+          <li>
+            Joonsang Yu, Junki Park, Seongmin Park, Minsoo Kim, Sihwa Lee,
+            Donghyun Lee, Jungwook Choi, ”NN-LUT: neural approximation of
+            non-linear operations for efficient transformer inference, ” DAC
+            2022
+          </li>
+          <li>
+            Hyeonseung Kim, Minsoo Kim, Jungwook Choi, ”Improving training
+            method for very low bit weight quanti- zation of Light Deep Learning
+            Model, ” Autumn Annual Conference of IEIE 2020
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="section__title">AWARD</h3>
+        <hr />
+        <div class="section__description__title horizontal justify-between">
+          <p>
+            <strong>2020 AI Grand Challenge</strong> Korea Ministry of Science
+            and ICT
+          </p>
+        </div>
+        <ul class="section__description__content">
+          <li>First place award in Model Compression Track</li>
+          <li>compress YOLOV5s Object Detection model with 4x speed up</li>
+        </ul>
+      </section>
+      <section>
+        <h3 class="section__title">SKILLS</h3>
+        <hr />
+        <ul class="section__description__content">
+          <li><strong>Programming Languages:</strong> Python, C, C++</li>
+          <li><strong>DL Frameworks:</strong> Pytorch, Huggingface</li>
+          <li>
+            <strong>Cloud Computing Platform:</strong> NAVER NSML Machine
+            Learning platform, KT Genie Mars Server Platform
+          </li>
+          <li>
+            <strong>English Skill:</strong> TOEIC 955, Served military service
+            as KATUSA (Korean augmented to the US Army) in 8th Army (Sep 2017 -
+            Apr 2019)
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
